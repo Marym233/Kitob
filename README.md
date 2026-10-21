@@ -11,6 +11,11 @@ A short bullet list of the main features you plan.
 - descriptions of the products, 
 - If products are vegan and cruelty free
 
+## How the repo is organised
+
+Kitob uses [one repo / two repos] for the website and the mobile app.
+I chose this because ...
+
 ## Tech
 
 Supabase, Next.js, and so on, and one line on why for each.
