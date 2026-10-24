@@ -20,6 +20,7 @@
 | Customer to Skin profile | one-to-one | A skin profile must belong to one customer. A customer may not have a profile yet. | A customer has only one set of skin details, and they might skip filling it in. |
 | Customer to Address | one-to-many | An address must belong to one customer. A customer can have zero or many addresses. | A new customer has no saved address yet, and someone might save a home and a work address. |
 | Customer to Order | one-to-many | An order must belong to one customer. A customer can have zero or many orders. | A customer who has just signed up has not bought anything yet. |
+| Address to Order | one-to-many | An order must be delivered to one address. An address can have zero or many orders. | Each order is sent to one saved address, and a customer can reuse the same address for many orders. |
 | Brand to Product | one-to-many | A product must have exactly one brand. A brand can have zero or many products. | Each product is made by one brand, and a brand makes many products. |
 | Category to Product | one-to-many | A product must have exactly one category. A category can have zero or many products. | Each product is one type of thing, and a category holds many products. |
 | Product to Ingredient | many-to-many | A product must have at least one ingredient. An ingredient can be in zero or many products. | The same ingredient, such as glycerin, appears in many products, and each product has many ingredients. A junction table will also store the order of the list. |
